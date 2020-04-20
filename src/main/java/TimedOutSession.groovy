@@ -1,0 +1,2 @@
+//RESET LOGIN
+sCommand = 'login'

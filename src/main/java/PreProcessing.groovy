@@ -1,0 +1,55 @@
+import groovy.json.JsonSlurper
+
+//Leopard UI
+
+//COMMAND
+if (engineEnvironment.getParameter("command")) {
+	sCommand = engineEnvironment.getParameter("command")
+} else {
+	sCommand = "request"
+}
+
+//AUTHENTICATION
+
+/*
+email: peter.joles@artificial-solutions.com
+phone: (425) 270-0640
+displayName: Peter Joles
+surname: Joles
+givenName: Peter
+name: Peter
+jobTitle: Sales Engineer
+accessToken: eyJ0eXAiOiJKV1QiLCJub25jZSI6IlZ1ZVVJbGZVUmpmbkpCZUxwVzBmOGl3eFR2clpJUFRuV1p0RlJ5SzRqcGsiLCJhbGciOiJSUzI1NiIsIng1dCI6IllNRUxIVDBndmIwbXhvU0RvWWZvbWpxZmpZVSIsImtpZCI6IllNRUxIVDBndmIwbXhvU0RvWWZvbWpxZmpZVSJ9.eyJhdWQiOiIwMDAwMDAwMy0wMDAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwMDAiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC83NmEwOTFlMi1jNDFjLTRkN2ItOGJmNi05NWJmYzYzMzU0YjQvIiwiaWF0IjoxNTg1OTMxMzg1LCJuYmYiOjE1ODU5MzEzODUsImV4cCI6MTU4NTkzNTI4NSwiYWNjdCI6MCwiYWNyIjoiMSIsImFpbyI6IkFZUUFlLzhQQUFBQWRYY0cxTThIWG5EK3V1blp4cWIyTnRxSmgwcWduc2RadGNwWkVzK1hBa01rQTU4amRzY1gzcnZ0MlVVUzRjUERUeUZ0dVMxSHI5dy9NbmM4a3NWL3dJYXM1ZktCTUE3MHhuZDZIUDllVVZKRUtLL0FWcUs5Njh3eUNHTXV4byt2bEVMMnlQb1NvT0hiUmxTRjJlQVNqQlhWVlpZZ3B0YStUVFhrL0FyKytHND0iLCJhbXIiOlsicHdkIl0sImFwcF9kaXNwbGF5bmFtZSI6IlRFTkVPX1dGSCIsImFwcGlkIjoiMDcyMjYyZDgtYmJhYi00NzNmLWI3ODktMmEzOTRhMGE1MTUxIiwiYXBwaWRhY3IiOiIxIiwiZmFtaWx5X25hbWUiOiJKb2xlcyIsImdpdmVuX25hbWUiOiJQZXRlciIsImlwYWRkciI6IjI0LjE3LjIwNi4xNDMiLCJuYW1lIjoiUGV0ZXIgSm9sZXMiLCJvaWQiOiJhZTQ1OGQ2NC01MmVlLTRlMTItODAxMy1iN2Q4NDhiNWUzOWUiLCJvbnByZW1fc2lkIjoiUy0xLTUtMjEtODY1OTUzOTcyLTkyMDkxNDIwMS0zNzEyODc2NjQxLTQ3NTgiLCJwbGF0ZiI6IjMiLCJwdWlkIjoiMTAwMzAwMDA5NUIyOTJFMSIsInNjcCI6IkRpcmVjdG9yeS5SZWFkLkFsbCBVc2VyLlJlYWQgVXNlci5SZWFkLkFsbCBwcm9maWxlIG9wZW5pZCBlbWFpbCIsInNpZ25pbl9zdGF0ZSI6WyJrbXNpIl0sInN1YiI6IkYtMFJOc3czekZMX0g1UnB1NjJCOUpYMXBPYkdsb2J1azVVZlExaGN3MDgiLCJ0aWQiOiI3NmEwOTFlMi1jNDFjLTRkN2ItOGJmNi05NWJmYzYzMzU0YjQiLCJ1bmlxdWVfbmFtZSI6InBldGVyLmpvbGVzQGFydGlmaWNpYWwtc29sdXRpb25zLmNvbSIsInVwbiI6InBldGVyLmpvbGVzQGFydGlmaWNpYWwtc29sdXRpb25zLmNvbSIsInV0aSI6IkNCTDVOc0xUc2thNE1FZk9vNEVUQUEiLCJ2ZXIiOiIxLjAiLCJ4bXNfc3QiOnsic3ViIjoiNzVwVDJ6NllfS1d6WjNTWWRhRWtGUHRLNXRtN21rVUgzalpuRkpNY3dNYyJ9LCJ4bXNfdGNkdCI6MTM4NjI2MDIxOH0.BKt37YUwyeEnUK6EHqMYPqmFbBhhYjNai3Xcv0sH4W-fFn07VUiyR8UsIQZ0yQUFtrRWxfsCE6O9VR2iJ9tT6HHdEFEcewEURoRSHuVgEYN7IzMAef6OescYsMKO_r3EmKaRmV0s3lGGoe9V-ug4jVMPxHGg6IlTk9hV-oEN7G6pWn2Y27TGVKb9TPYTTBeH8BzN_0oyLxjKwCTje4cFAy87yMOGwLXjZ8xwcTVK2kXZb4TTpjBEFRwygD2M9m8sZ-JEU656lcXCXL1uanE593QOL-FyQceFOzVDjFYrbo-ye-gWlOPSiaLuJTVmXQyoFQFYUKYjiSlebuCWKWDUvA
+providerId: microsoft.com
+*/
+
+//Store given name
+if (engineEnvironment.getParameter("givenName")) {
+	Lib_sUserFirstName = engineEnvironment.getParameter("givenName")
+}
+
+if (engineEnvironment.getParameter("displayName")) {
+	oMsAuth.displayName = engineEnvironment.getParameter("displayName")
+}
+
+// Store details from MS Active Directory authentication
+if (engineEnvironment.getParameter("userPrincipleName")) {
+	oMsAuth.displayName = engineEnvironment.getParameter("displayName ")
+	oMsAuth.jobTitle = engineEnvironment.getParameter("jobTitle")
+	oMsAuth.accessToken = engineEnvironment.getParameter("accessToken")
+	oMsAuth.userPrincipleName = engineEnvironment.getParameter("userPrincipleName")
+}
+
+
+//FORM DATA
+if (engineEnvironment.getParameter("formData")) {
+	def formData = engineEnvironment.getParameter("formData");
+	if (formData) {
+		def jsonSlurper = new JsonSlurper()
+		sFormRawJson = URLDecoder.decode(formData)
+		//println(sFormRawJson)
+		oFormSubmittedData = jsonSlurper.parseText(sFormRawJson)
+		println(oFormSubmittedData)
+	}
+}
+

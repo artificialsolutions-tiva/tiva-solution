@@ -78,11 +78,11 @@ Lib_iDay = c.get(Calendar.DAY_OF_MONTH)
 Lib_iMonth = c.get(Calendar.MONTH) + 1 // Returns 0..11
 Lib_iYear = c.get(Calendar.YEAR)
 
-//Get sheetId input parameter or use default
+//Get sheetId input parameter or use default for tryout
 if (engineEnvironment.getParameter("sheetId")) {
 	sSheetId = engineEnvironment.getParameter("sheetId")
-} else {
-	sSheetId = "191ozzVXeg88pzykiozfLYy5-518fVWdqDjrcrnQM6LU"
+} else if (!engineAccess.getProperty('servletContextParameters.release_environment')){
+	sSheetId = sTryoutSheetID
 }
 
 //ELST: Moved this above NER as the sheet information is required for NER
@@ -96,6 +96,7 @@ try {
 }
 
 //Gazeteer NER for Topics
+
 def topicEntityList = new LinkedList<ner.Entity>();
 lTopics.each {
 	item ->
@@ -154,7 +155,6 @@ oServiceExactNER.setBlockwords(serviceBlockWordsExact);
 oServiceTolerantNER = new ner.NER("SERVICE_APPROX", serviceEntityList, propsTolerant)
 def serviceBlockWordsTolerant = []
 oServiceTolerantNER.setBlockwords(serviceBlockWordsTolerant);
-
 
 
 

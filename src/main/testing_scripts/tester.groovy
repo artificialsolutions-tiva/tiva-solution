@@ -2,8 +2,10 @@
 def binding = new GlobalEmulation()
 println(binding.sSheetId)
 
-/*
+
 def stuff = KnowledgeHelper.getIntentsAndAnswers(binding, this, binding.sSheetId)
+println stuff
+/*
 println("WFH_COVID19_HR_WFH_PAY:" + KnowledgeHelper.getRandomAnswer(binding, this, "this intent doesn't exist"))
 println KnowledgeHelper.getRandomAnswer(binding, this, "WFH_COVID19_HR_GENERAL_TRAVEL_POLICY")
 println KnowledgeHelper.getRandomAnswer(binding, this, "WFH_COVID19_HR_CORONAVIRUS_AVOIDING_GIVING_IT_TO_OTHERS", "Spain", "webview")

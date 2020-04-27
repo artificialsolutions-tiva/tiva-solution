@@ -31,7 +31,7 @@ class UIHelper {
 				break
 			case "botframework-msteams":
 				binding.bNeedAdditionalOutputText = true
-				binding.sAdditionalOutputText += getNewLine(binding, channel)+ "[$binding.sLinkInro $url]($url)"
+				binding.sAdditionalOutputText += getNewLine(binding, channel)+ "[$binding.sLinkIntro $url]($url)"
 				break
 			default:
 				println("channel unknown")
@@ -103,7 +103,7 @@ class UIHelper {
 				//binding.lExtensionOutputParams << ["msbotframework": json ]
 
 				binding.bNeedAdditionalOutputText = true
-				binding.sAdditionalOutputText += getNewLine(binding, channel)+"[$binding.sVideoLinkInro $videoUrl]($videoUrl)"
+				binding.sAdditionalOutputText += getNewLine(binding, channel)+"[$binding.sVideoLinkIntro $videoUrl]($videoUrl)"
 				break;
 			default:
 				break

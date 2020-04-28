@@ -2,10 +2,10 @@
 
 This project represents all of the resources used by the Tiva Teneo Studio solution. The solution file is available for each release here: [https://github.com/artificialsolutions-tiva/tiva-solution/releases](https://github.com/artificialsolutions-tiva/tiva-solution/releases) 
 
-##Prerequisites
-A 5.1.1 or greater studio environment.
+## Prerequisites
+A 5.1.1 or greater Teneo studio environment.
 
-##Project Structure
+## Project Structure
 * external_sheets
 
 >Contains a single file which is an excel sheet with the same structure as the google sheet passed into the solution.

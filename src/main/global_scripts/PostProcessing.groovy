@@ -1,4 +1,3 @@
-
 //Debugging: Returns an unmodifiable copy of the vertexprocessing path for the current turn
 def list;
 list=_.processingPath.findAll{it.type=="output"&&!it.skipped}.vertexId;
@@ -55,7 +54,10 @@ if (sChannel == "ivr") {
 	responseObj.put("next", next)
 	responseObj.put("SessionAttributes", [:])
 
-	_.putOutputParameter("VoiceResponse", JsonHandler.objectToString(responseObj).replaceAll('"', '\\\\"'))
+	// CADE: Per Gabriel's feedback on 04/22/20
+	//_.putOutputParameter("VoiceResponse", JsonHandler.objectToString(responseObj).replaceAll('"', '\\\\"'))
+	_.putOutputParameter("VoiceResponse", JsonHandler.objectToString(responseObj))
+
 
 	// BUILDING VOICE RESPONSE (CSG IVR)
 	// Examples

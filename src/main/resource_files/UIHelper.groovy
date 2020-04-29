@@ -18,7 +18,7 @@ class UIHelper {
 				// binding.sExtensionOutputParam = outputParameter = ExtensionHelper.displayPanel(content, channel)
 				if (binding.bDemoMode) {
 					binding.bNeedUrlOutput = true
-					binding.sOutputUrl = outputParameter = url
+					binding.sOutputUrl =  url
 				} else {
 					binding.bNeedAdditionalOutputText = true
 					binding.sAdditionalOutputText += getNewLine(binding, channel) + "<a target=\"_blank\" href=\"$url\">$url<a>"

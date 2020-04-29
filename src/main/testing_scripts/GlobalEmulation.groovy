@@ -2,6 +2,7 @@ class GlobalEmulation {
 
 	static def oAnswerJSON;
 	static def oContactJSON;
+	//static def sSheetId = "191ozzVXeg88pzykiozfLYy5-518fVWdqDjrcrnQM6LU"
 	static def sSheetId = "191ozzVXeg88pzykiozfLYy5-518fVWdqDjrcrnQM6LU"
 	static def Lib_sBotName = ""
 	static def Lib_sCompanyName = ""
@@ -24,5 +25,6 @@ class GlobalEmulation {
 	static def bDemoMode = true
 	static def bNeedAdditionalOutputText = false
 	static def sAdditionalOutputText = ""
+	static def sJaguarEndpoint = "https://jaguar.tiva.ai/"
 
 }

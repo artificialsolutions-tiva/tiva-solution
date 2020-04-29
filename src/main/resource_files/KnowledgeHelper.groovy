@@ -96,7 +96,7 @@ class KnowledgeHelper {
 
 	public static getClientConfig(binding, parentScript, sheetKey){
 
-		def configJSON = GoogleSheetConnector.getSheetJSON(sheetKey, "ClientConfig").data[0]
+		def configJSON = GoogleSheetConnector.getSheetJSON(binding, sheetKey, "ClientConfig").data[0]
 		binding.Lib_sBotName = configJSON.BotName
 		binding.Lib_sCompanyName = configJSON.CompanyName
 		binding.sCompanyEmailDomain = configJSON.CompanyEmailDomain
@@ -104,12 +104,12 @@ class KnowledgeHelper {
 	}
 
 	public static getClientServices(binding, parentScript, sheetKey) {
-		def servicesJSON = GoogleSheetConnector.getSheetJSON(sheetKey, "Services").data
+		def servicesJSON = GoogleSheetConnector.getSheetJSON(binding, sheetKey, "Services").data
 		binding.lServices = servicesJSON
 	}
 
 	public static getProactiveResponses(binding, parentScript, sheetKey) {
-		def proactiveJSON = GoogleSheetConnector.getSheetJSON(sheetKey, "ProactiveResponse").data
+		def proactiveJSON = GoogleSheetConnector.getSheetJSON(binding, sheetKey, "ProactiveResponse").data
 	}
 
 	public static getProactiveNotification(binding, parentScript) {
@@ -146,7 +146,7 @@ class KnowledgeHelper {
 	public static getIntentsAndAnswers(binding, parentScript, sheetKey) {
 		//if we don't have answers go fetch
 		if (!binding.oAnswerJSON){
-			binding.oAnswerJSON = GoogleSheetConnector.getSheetJSON(sheetKey, "IntentsAndAnswers").data
+			binding.oAnswerJSON = GoogleSheetConnector.getSheetJSON(binding, sheetKey, "IntentsAndAnswers").data
 		}
 		return binding.oAnswerJSON
 	}
@@ -154,7 +154,7 @@ class KnowledgeHelper {
 	public static getEmergencyContacts(binding, parentScript, sheetKey){
 		//if we don't have answers go fetch
 		if (!binding.oContactJSON){
-			binding.oContactJSON = GoogleSheetConnector.getSheetJSON(sheetKey, "EmergencyContact").data
+			binding.oContactJSON = GoogleSheetConnector.getSheetJSON(binding, sheetKey, "EmergencyContact").data
 		}
 		return binding.oContactJSON
 	}
@@ -167,7 +167,7 @@ class KnowledgeHelper {
 
 	public static getGreetingConfig(binding, parentScript, sheetKey){
 
-		def configJSON = GoogleSheetConnector.getSheetJSON(sheetKey, "Greeting").data[0]
+		def configJSON = GoogleSheetConnector.getSheetJSON(binding, sheetKey, "Greeting").data[0]
 		binding.lTopics = configJSON.Topics.tokenize("|")
 		binding.lGreetings = configJSON["Greeting Message"].tokenize("|")
 		binding.sGreetingUrl = configJSON["Greeting URL"]

@@ -4,7 +4,7 @@ import groovyx.net.http.HTTPBuilder
 import static groovyx.net.http.Method.POST
 import static groovyx.net.http.ContentType.JSON
 
-def http = new HTTPBuilder('http://jaguar.jolzee.xyz')
+def http = new HTTPBuilder(sJaguarEndpoint)
 http.request( POST, JSON ) { req ->
 	uri.path = '/utils/send-sms'
 	body = [to: phoneNumber, message: content]

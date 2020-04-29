@@ -4,7 +4,7 @@ import groovyx.net.http.HTTPBuilder
 import static groovyx.net.http.Method.POST
 import static groovyx.net.http.ContentType.JSON
 
-def http = new HTTPBuilder('http://jaguar.jolzee.xyz')
+def http = new HTTPBuilder(sJaguarEndpoint)
 sent = false
 
 http.request( POST, JSON ) { req ->

@@ -21,7 +21,7 @@ class UIHelper {
 					binding.sOutputUrl =  url
 				} else {
 					binding.bNeedAdditionalOutputText = true
-					binding.sAdditionalOutputText += getNewLine(binding, channel) + "<a target=\"_blank\" href=\"$url\">$url<a>"
+					binding.sAdditionalOutputText += getNewLine(binding, channel) + "<a target=\"_blank\" href=\"$url\">$url</a>"
 				}
 
 				break

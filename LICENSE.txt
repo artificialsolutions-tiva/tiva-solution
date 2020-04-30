@@ -1,0 +1,83 @@
+TIVA APPLICATION TERMS AND CONDITIONS
+This Agreement governs the access to, and use of, the Tiva software application (the “Application”).
+The agreement by you to be bound by the terms and conditions of this Agreement (and any modification to this Agreement) is acknowledged by accessing the Application either by using the AS managed service or by downloading the Application from AS or any other source. If you are entering into this Agreement on behalf of a company or other legal entity, and if applicable, its affiliates, you represent that you have the legal authority to bind such company or other legal entity and, if applicable, its affiliates to this Agreement.
+If you do not have such legal authority, or you do not agree to the terms of this Agreement, please do not access the Application either by using the AS managed service or by downloading the Application from AS.
+Once acknowledged, this Agreement will constitute a binding and enforceable legal agreement between AS and you, such company or other legal entity, and if applicable, its affiliates (collectively referred to as the "User"). This Agreement sets out the terms on which AS grants to the User access to, and use of, The Application.
+
+1.	DEFINITIONS AND INTERPRETATION
+
+“Agreement”	means, together: (i) these terms and conditions; (ii) all other terms and conditions applicable to any technical resources provided or made available to User by AS through the Application; (iii) the Order Form signed by the User, and any variations to (i), (ii) or (iii);
+"AS"    means Artificial Solutions;
+"Application"   means the ‘Tiva’ application and all technical resources provided or made available by AS in connection with the Application including software, documentation and data materials;
+"Data Protection Laws"  means all laws, regulations, regulatory requirements, guidance and codes of practice, including Regulation (EU) 2016/679 (GDPR) and the UK equivalent, applicable to the processing of personal data (as amended and/or replaced from time to time). The terms "personal data", "processor", "data subject", "process", and "controller" are as defined in the Data Protection Laws;
+"Export Controls & Sanctions Rules" means all applicable export control and trade sanctions laws, regulations, rules and licences, including the Export Administration Regulations (15 CFR 730-774), the International Traffic in Arms Regulations (22 CFR 120-130) and the various economic sanctions regulations administered by the US Department of the Treasury (31 CFR 500-600), and the EU Dual Use Regulation (Regulation (EC) 428/2009, as amended or replaced) and other applicable sanctions regulations in the US, EU, UK and other applicable jurisdictions;
+"Intellectual Property Rights"  means all intellectual property rights, including, but not limited to, patents, trade secrets, trade marks, service marks, trade or business names, copyrights and other rights in works of authorship (including rights in computer software), moral and artists’ rights, design rights, domain names, know-how and database rights whether any of the foregoing are registered or unregistered and all rights or forms of protection of a similar nature in any country;
+“Objective” means the use of the Application for evaluation purposes only;
+“Party” means User or AS, and “Parties” means both User and AS;
+
+2.	LICENCE
+2.1	Subject to the restrictions detailed in Clause 4, AS grants to the User a royalty free, non-exclusive, non-transferable, non-sub-licensable and revocable licence to access and use the Application solely for the purposes of the Objective for the time period agreed between the Parties (the "Term").
+2.2	The User has no right (and shall not permit any third party) to copy, adapt, reverse engineer, decompile, disassemble, modify, adapt or make error corrections to the Application in whole or in part except to the extent that any reduction of the Application to human readable form (whether by reverse engineering, decompilation or disassembly) is necessary for the purposes of integrating the operation of the Application with the operation of other software or systems used by the User.
+2.3	AS may, at any time, in its sole discretion and without any notice to User, change, suspend or discontinue User's access to all or part of The Application.
+2.4	AS reserves the right to make changes to The Application at any time, in whole or in part, for any reason and without limitation. In addition, AS may upgrade or modify The Application, or any services offered in connection with The Application and such upgrades or modifications may require User to make changes to its internal hardware and software systems in order to continue using The Application. The User acknowledges that its failure to make any such change or upgrade may result in it being unable to continue using The Application.
+2.5	The User shall comply with all laws or regulations applicable to its access to, or use of, the Application. The User shall not use the Application in any manner, nor create any application using the Application, that is unlawful, infringes, violates or misappropriates the Intellectual Property Rights of any third party, or promotes any harmful or illegal activities.
+2.6	The User shall, in connection with the Application, communicate to AS any recommendations, comments, suggestions or other information relating to improvements to The Application (collectively, "Feedback"). AS shall own all right, title, and interest in and to the Feedback, AS shall be entitled to use the Feedback without restriction or further compensation to the User.
+
+3.	SUPPORT
+3.1	A limited support service shall be available to the User regarding access and use of the Application, where all such matters should be addressed by the User to the following email address: TivaSupport@artificial-solutions.com.
+4.	USE OF THE APPLICATION
+4.1	The User shall:
+4.1.1	only use the Application for the purposes of the Objective; and
+4.1.2	not allow any third party to use the Application in any way whatsoever without the prior written consent of AS.
+4.2	Except to the extent permitted by applicable law, the User shall not itself, nor shall it permit any third party to (or attempt to), copy, modify, alter, improve, enhance, make error corrections, decompile, translate, adapt, reverse engineer or disassemble the Application.
+4.3	The User shall not without the prior written consent of AS: (a) sub-license, sell, loan, rent, or lease any portion of the Application to any third party or assign or novate the benefit or burden of this Agreement in whole or in part; (b) allow the Application to become the subject of any charge, lien or encumbrance; or (c) deal in any other manner with any or all of its rights and obligations under this Agreement.
+4.4	The User shall follow the instructions provided by AS from time to time governing the use of the Application and/or any services offered by AS through the Application.
+4.5	The User shall not use, or allow any applications created by the User, in any manner which will or is likely to adversely affect the functionality of the Application, or allow third parties access to the Application.
+
+5.	INTELLECTUAL PROPERTY RIGHTS
+5.1	The User acknowledges that all Intellectual Property Rights in and to the Application belong to AS. The User shall have no rights in or to the Application other than the rights granted in this Agreement.
+5.2	If the User makes any alteration, improvement, enhancement or other modification to the Application in breach of this Agreement, the User hereby assigns by way of present assignment of future rights all Intellectual Property Rights in such modification to AS with full title guarantee. The User shall provide full details to AS of such alterations, improvements, enhancements and/or other modifications and User must promptly remove the same at AS’s request.
+5.3	The User shall give prompt notice to AS if the User becomes aware of any unauthorised use or exploitation of the whole or any part of the Application and shall provide AS with all necessary assistance in preventing and/or remedying such unauthorised use or exploitation.
+5.4	The User hereby grants to AS a worldwide licence to use, adapt copy or modify any data or material derived from the User's use of the Application for incorporation into AS's proprietary software and services from time to time.
+5.5	The User will not remove, obscure, or alter any proprietary rights notices (including copyright and trade mark notices) that may be affixed to or contained within the Application.
+
+6.	APPLICATION DATA
+6.1	The Application provided to the User includes sample data that the User can modify and extend (“Application Data”). For the avoidance of doubt and with reference to clauses 7.1, 8.1 and 8.2 of this Agreement it is the sole responsibility of the User to ensure the suitability of the Application including the Application Data prior to launching the Application on internal or publicly facing systems.
+6.2	The User agrees that any materials, comments, suggestions or other information that the User posts or otherwise makes available on or through the Application shall be considered non-confidential.
+6.3	AS reserves the right to monitor the User’s use of the Application and, at its sole discretion and without prior notice, remove or otherwise block any material posted. However, AS has no obligation to prescreen, monitor, edit or remove any part of the Application and assumes no responsibility for the Application, even where it chooses to carry out prescreening, monitoring, editing or removal of any material posted.
+
+7.	NO WARRANTIES
+7.1	To the extent permitted by law, AS provides the Application on an "AS-IS" basis only and no warranties, conditions or representations (express or implied by statute or otherwise) are given in respect of the Application (including implied warranties of satisfactory quality and fitness for purpose).
+
+8.	LIMITATION OF LIABILITY
+8.1	Except in respect of claims for fraudulent misrepresentation or for death or personal injury arising from AS’s negligence, AS excludes all liability for the following: (i) loss of data or use; (ii) loss of revenue; (iii) loss of profits; (iv) loss of anticipated savings; (v) loss or damage to contract; (vi) loss of goodwill; or (vii) loss of business, in each case whether (i) to (vii) is considered direct or indirect loss; and (viii) any indirect or consequential loss.
+8.2	Subject to Clause 8.1, to the extent permitted by law, the total liability of AS to the User under or in connection with this Agreement, whether based upon an action or claim in contract, tort (including negligence and strict liability), breach of warranty, misrepresentation, equity or otherwise, shall not exceed EUR 5,000.
+
+9.	INDEMNITY
+9.1	To the maximum extent permitted by law, the User agrees to defend, indemnify and hold harmless AS, its affiliates and their respective directors, officers, employees and agents from and against any and all third party claims arising from: (a) use of the Application by the User, and (b) any application that User develops using the Application that infringes any Intellectual Property Rights.
+
+10.	TERMINATION
+10.1	AS may terminate this Agreement (or any part of this Agreement) at any time and for any reason, without prior notice to the User where the User is accessing the Application via the AS managed service.
+10.2	If the User is accessing the Application via the AS managed service, they may terminate this Agreement upon thirty (30) working days' written notice to AS following any minimum commitment period agreed between the Parties.
+10.3	Upon expiry or termination, all rights and licenses granted to the User by AS will cease, including the User's right to access the Application.
+10.4	Upon expiry or any termination, the User shall within two working days return to AS all copies of all or part of the Application on any tangible medium and shall completely delete all electronic copies of all or any part of the Application.
+
+11.	CONFIDENTIALITY
+Each party shall, during the term of this Agreement and thereafter, keep confidential all, and shall not use for its own purposes (other than in connection with this Agreement) nor without the prior written consent of the other disclose to any third party (except its professional advisors or as may be required by any law or any legal or regulatory authority) any, information of a confidential nature (including trade secrets and information of commercial value) which may become known to such party from the other party and which relates to the other party or any of its affiliates, unless that information is public knowledge or already known to such party at the time of disclosure, or subsequently becomes public knowledge other than by breach of this Agreement, or subsequently comes lawfully into the possession of such party from a third party. Each party shall use its reasonable endeavours to prevent the unauthorised disclosure of any such confidential information.
+
+12.	DATA PROTECTION
+The User agrees that it shall not disclose or make available any Personal Data as part of its use of the Application. To the extent that AS collects any Personal Data from the User in connection with its subscription to use the Application, AS shall process such Personal Data in accordance with its Privacy Policy.
+
+13.	EXPORT CONTROL
+The User shall comply with the Export Control & Sanctions Rules in connection with its access to, and use, of the Application. The User acknowledges that it bears sole responsibility for any violation of the Export Control & Sanctions Rules and will indemnify, defend and hold AS harmless for the consequences of any such violation and not do anything which would cause AS to be in breach of the Export Control & Sanctions Rules.
+
+14.	GENERAL
+14.1	AS reserves the right, at its discretion, to modify this Agreement at any time. When modifications are made, AS shall make a new version of this Agreement available to the User.
+14.2	Except as expressly set out in this Agreement it is not intended that any third party may enforce the benefit conferred on it under this Agreement in accordance with the terms of the Contract (Rights of Third Parties) Act 1999.  The User and AS reserve the right to rescind or vary this Agreement without the consent of such third parties.
+14.3	If any provision of this Agreement is or becomes invalid, illegal or unenforceable, it shall be deemed deleted, but that shall not affect the validity and enforceability of the rest of this Agreement.
+14.4	If either Party delays or fails to exercise any right or remedy under this Agreement, that Party will not have waived that right or remedy.
+14.5	Nothing in this Agreement shall constitute or be deemed to constitute a partnership, association, joint venture or other co-operative entity between the Parties and neither Party has authority to bind the other in any way except as provided in this Agreement.
+14.6	This Agreement contains all the terms agreed between the Parties regarding the subject matter and supersedes and replaces any prior agreement, understanding or arrangement between the Parties, whether oral or in writing.
+14.7	Any notice given under this Agreement shall be in writing by e-mail to the following addresses or such other addresses notified in writing by either Party: to AS: LegalCompliance@artificial-solutions.com; to the User, email address provided by the User.
+14.8	The rights, powers and remedies provided in this Agreement are (except as expressly provided) cumulative and not exclusive of any rights, powers and remedies provided by law, or otherwise.
+14.9	This Agreement and any dispute or claim (including non-contractual disputes or claims) arising out of or in connection with it or its subject matter or formation shall be governed by and construed in accordance with English law. Each Party irrevocably agrees that the courts of England and Wales shall have exclusive jurisdiction to settle any dispute or claim (including non-contractual disputes or claims) arising out of or in connection with this Agreement or its subject matter or formation.
